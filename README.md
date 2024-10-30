@@ -19,9 +19,15 @@ Follow these steps to execute each of the six Python files in sequence:
 2. **Step 2**: Navigate to the directory containing your Python files. Use the following command:
    ```bash
    cd path/to/your/python/files
-3. **Step 3**: Run command: python3 BFB_BvsT.py
-4. **Step 4**: Run command: python3 BFB_IvsT.py
-5. **Step 5**: Run command: python3 frag.py
-6. **Step 6**: Run command: python3 BvB_BvsT.py
-7. **Step 7**: Run command: python3 BvB_IvsT.py
-8. **Step 8**: Run command: python3 BvB_TvsT.py
+3. **Step 3**: For visualising comparisons between Best Fit, First Fit and MLDPBS 
+   Run the following commands: 
+   ```bash
+   python3 BFB_BvsT.py
+   python3 BFB_IvsT.py
+   python3 frag.py
+6. **Step 6**: For visualising comparisons between MLDPBS and the other state of the art Buddy System variations 
+   Run the following commands: 
+   ```bash
+   python3 BvB_BvsT.py
+   python3 BvB_IvsT.py
+   python3 BvB_TvsT.py
